@@ -9,3 +9,9 @@
        "redfish_uri": "/redfish/v1/Chassis/RackA/Blades/Blade1"
      }
    }'
+   ```
+3. Check Reconciliation:
+    ```bash
+    curl http://localhost:8080/devices/ABC-123
+    ```
+Success Criteria: The status field should now contain "parent": "RackA".
