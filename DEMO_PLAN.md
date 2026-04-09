@@ -1,5 +1,5 @@
 # Hardware Manager Demo Plan
-1. **Initialize Project**: Use the `fabrica_init` MCP tool to create `hardware-manager`.
+1. **Initialize Project**: Use the `fabrica_init` MCP tool on the `fabrica` MCP server. to create `hardware-manager`.
    - Enable metrics, events, and reconciliation.
    - Use absolute path: /Users/ben.mcdonald/demo-fabrica/hardware-manager
    - The `working_dir` parameter MUST change after Step 1. Step 1 uses the parent directory. Steps 3 and 4 MUST use the newly created `hardware-manager` subdirectory.
