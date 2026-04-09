@@ -12,6 +12,6 @@
    ```
 3. Check Reconciliation:
     ```bash
-    curl http://localhost:8080/devices/ABC-123
+    curl http://localhost:8080/devices | jq
     ```
 Success Criteria: The status field should now contain "parent": "RackA".
